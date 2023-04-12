@@ -15,7 +15,7 @@ const setupAndStartServer= () => {
     app.listen(PORT, () => {
         console.log("Server started on port "+PORT);
 
-        sendBasicEmail('atharv.n2002@gmail.com','support@notification.com','NOti Email','Hello there');
+        // sendBasicEmail('atharv.n2002@gmail.com','support@notification.com','NOti Email','Hello there');
     });
 }
 
